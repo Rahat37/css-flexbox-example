@@ -1,0 +1,33 @@
+
+.flex div{
+    border: 1px solid cyan;
+    padding: 5px;
+}
+.b-1{
+    flex: 1;
+    order: 2;
+}
+.b-2{
+    flex: 1;
+    order: 1;
+}
+.b-3{
+    flex: 1; 
+    order: 3;   
+}
+
+.b{flex-basis: 15%;border: 1px solid cyan;
+    padding: 5px;
+}
+@media screen And (min-width:650px){
+    .flex{
+        display: flex;
+        /*flex-direction:column;*/
+        align-items: center;
+    }
+    .flex-2{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+}
